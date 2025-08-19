@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "target" : "esnext",
+        "strict": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "noEmitOnError": true,
+        "declaration": true,
+        "moduleResolution": "node",
+        "noUncheckedIndexedAccess": true,
+        "outDir": "./dist"
+    },
+    "files": ["src/index.ts"],
+    "include": ["src/**/*.ts"],
+    "exclude": ["node_modules"]
+}
